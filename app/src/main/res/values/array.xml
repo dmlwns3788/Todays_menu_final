@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name ="category">
+        <item>Korean</item>
+        <item>Chinese</item>
+        <item>Japanese</item>
+        <item>Western</item>
+        <item>Fastfood</item>
+        <item>Snack</item>
+        <item>Chicken</item>
+        <item>Pizza</item>
+    </string-array>
+</resources>

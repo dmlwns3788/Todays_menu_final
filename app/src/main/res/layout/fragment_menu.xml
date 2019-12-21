@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_seller_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/lay"
+        android:layout_width="match_parent"
+        android:layout_height="200pt"
+        tools:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:id="@+id/lay2"
+            android:layout_width="match_parent"
+            android:layout_height="150pt"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            tools:ignore="MissingConstraints"
+            tools:layout_alignParentTop="false"
+            tools:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="100pt"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:scaleType="centerInside" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/maplestorybold"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:scaleType="centerInside" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/b_roll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonshape"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="ROLL"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:fontFamily="@font/maplestorybold"/>
+
+</LinearLayout>
